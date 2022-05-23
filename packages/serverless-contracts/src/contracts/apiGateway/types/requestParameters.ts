@@ -1,4 +1,4 @@
-import { HttpMethod } from 'types/http';
+import { HttpMethod } from '@/types/http';
 
 import { ApiGatewayContract } from '../apiGatewayContract';
 import {

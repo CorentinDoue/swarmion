@@ -6,6 +6,9 @@ export const packageTsConfig = (options: NormalizedSchema): TsConfig => ({
   extends: joinPathFragments(options.offsetFromRoot, 'tsconfig.json'),
   compilerOptions: {
     baseUrl: 'src',
+    paths: {
+      '@/*': ['*'],
+    },
     composite: true,
     // @ts-expect-error ttypescript types are not defined
     plugins: [{ transform: '@zerollup/ts-transform-paths' }],

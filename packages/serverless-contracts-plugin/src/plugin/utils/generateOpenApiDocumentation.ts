@@ -3,7 +3,7 @@ import Serverless from 'serverless';
 
 import { getOpenApiDocumentation } from '@swarmion/serverless-contracts';
 
-import { ServerlessContracts } from 'types/serviceOptions';
+import { ServerlessContracts } from '@/types/serviceOptions';
 
 import { isDefined } from './isDefined';
 

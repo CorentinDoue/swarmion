@@ -1,7 +1,7 @@
 import { OpenAPIV3 } from 'openapi-types';
 
-import { getOpenApiDocumentation as getApiGatewayOpenApiDocumentation } from 'contracts/apiGateway/features';
-import { ServerlessContract } from 'types/serverlessContract';
+import { getOpenApiDocumentation as getApiGatewayOpenApiDocumentation } from '@/contracts/apiGateway/features';
+import { ServerlessContract } from '@/types/serverlessContract';
 
 export interface ContractOpenApiDocumentation {
   path: string;

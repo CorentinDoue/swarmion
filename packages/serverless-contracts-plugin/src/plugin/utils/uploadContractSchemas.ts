@@ -3,7 +3,7 @@ import * as Serverless from 'serverless';
 import Plugin from 'serverless/classes/Plugin';
 import simpleGit from 'simple-git';
 
-import { RemoteServerlessContractSchemas } from 'types/serviceOptions';
+import { RemoteServerlessContractSchemas } from '@/types/serviceOptions';
 
 import { COMPILED_CONTRACTS_FILE_NAME, CONTRACTS_VERSION } from './constants';
 import { listLocalContractSchemas } from './listLocalContractSchemas';

@@ -2,8 +2,8 @@ import { JSONSchema } from 'json-schema-to-ts';
 import isUndefined from 'lodash/isUndefined';
 import omitBy from 'lodash/omitBy';
 
-import { ConstrainedJSONSchema } from 'types/constrainedJSONSchema';
-import { HttpMethod } from 'types/http';
+import { ConstrainedJSONSchema } from '@/types/constrainedJSONSchema';
+import { HttpMethod } from '@/types/http';
 
 import { ApiGatewayIntegrationType, InputSchemaType } from './types';
 

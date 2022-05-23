@@ -3,6 +3,9 @@
   "compilerOptions": {
     "preserveSymlinks": true,
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "references": [
     { "path": "../../packages/configuration/tsconfig.build.json" },

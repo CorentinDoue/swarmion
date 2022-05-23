@@ -2,6 +2,9 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
     "composite": true,
     "plugins": [{ "transform": "@zerollup/ts-transform-paths" }],
     "emitDeclarationOnly": true,

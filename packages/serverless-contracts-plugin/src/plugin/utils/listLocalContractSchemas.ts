@@ -9,7 +9,7 @@ import { getContractFullSchema } from '@swarmion/serverless-contracts';
 import {
   ServerlessContracts,
   ServerlessContractSchemas,
-} from 'types/serviceOptions';
+} from '@/types/serviceOptions';
 
 export const listLocalContractSchemas = (
   serverless: Serverless,

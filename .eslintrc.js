@@ -31,6 +31,7 @@ module.exports = {
       {
         pathGroups: [
           { pattern: '@swarmion/**', group: 'unknown' },
+          { pattern: '@/**', group: 'internal' },
         ],
         groups: [
           ['external', 'builtin'],

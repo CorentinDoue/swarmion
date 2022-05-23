@@ -1,8 +1,8 @@
 import { JSONSchema } from 'json-schema-to-ts';
 
-import { getFullContractSchema as getApiGatewayFullContractSchema } from 'contracts/apiGateway/features';
-import { getFullContractSchema as getCloudFormationFullContractSchema } from 'contracts/cloudFormation/features';
-import { ServerlessContract } from 'index';
+import { getFullContractSchema as getApiGatewayFullContractSchema } from '@/contracts/apiGateway/features';
+import { getFullContractSchema as getCloudFormationFullContractSchema } from '@/contracts/cloudFormation/features';
+import { ServerlessContract } from '@/types';
 
 export const getContractFullSchema = (
   contract: ServerlessContract,

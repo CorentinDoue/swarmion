@@ -7,7 +7,9 @@ export const packageTsConfig = (options: NormalizedSchema): TsConfig => ({
   compilerOptions: {
     preserveSymlinks: true,
     baseUrl: '.',
-    esModuleInterop: true,
+    paths: {
+      '@/*': ['*'],
+    },
   },
   references: [
     {

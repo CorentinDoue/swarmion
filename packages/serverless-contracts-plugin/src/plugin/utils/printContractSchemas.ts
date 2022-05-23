@@ -1,5 +1,5 @@
-import { ContractSchemasLocation } from 'types/locations';
-import { ServerlessContractSchemas } from 'types/serviceOptions';
+import { ContractSchemasLocation } from '@/types/locations';
+import { ServerlessContractSchemas } from '@/types/serviceOptions';
 
 export const printContractSchemas = (
   { provides, consumes }: ServerlessContractSchemas,

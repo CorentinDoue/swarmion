@@ -1,6 +1,6 @@
 import { OpenAPIV3 } from 'openapi-types';
 
-import { ContractOpenApiDocumentation } from 'types/contractOpenApiDocumentation';
+import { ContractOpenApiDocumentation } from '@/types/contractOpenApiDocumentation';
 
 import { ApiGatewayContract } from '../apiGatewayContract';
 

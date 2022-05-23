@@ -10,8 +10,8 @@ import {
 } from '@swarmion/serverless-configuration';
 import { ServerlessContracts } from '@swarmion/serverless-plugin';
 
-import { functions } from 'functions';
-import { cdkResources } from 'resources';
+import { functions } from '@/functions';
+import { cdkResources } from '@/resources';
 
 const serverlessConfiguration: AWS & ServerlessContracts = {
   service: `${projectName}-orchestrator`, // Keep it short to have role name below 64

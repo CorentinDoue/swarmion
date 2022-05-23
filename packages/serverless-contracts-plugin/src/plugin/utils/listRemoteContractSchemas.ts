@@ -1,7 +1,7 @@
 import * as S3 from 'aws-sdk/clients/s3';
 import Serverless from 'serverless';
 
-import { RemoteServerlessContractSchemas } from 'types/serviceOptions';
+import { RemoteServerlessContractSchemas } from '@/types/serviceOptions';
 
 import { buildPreviousDeploymentArtifactDirectoryName } from './artifactDirectory';
 import { COMPILED_CONTRACTS_FILE_NAME, CONTRACTS_VERSION } from './constants';
