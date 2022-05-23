@@ -16,5 +16,5 @@ export const packageTsConfig = (options: NormalizedSchema): TsConfig => ({
     outDir: './dist/types',
   },
   exclude: ['./dist'],
-  include: ['./**/*.ts'],
+  include: ['./**/*.ts', './tsconfig.json'],
 });

@@ -4,6 +4,7 @@
     "esModuleInterop": true,
     "types": ["node", "jest"],
     "lib": ["es2020"],
+    "resolveJsonModule": true,
     "removeComments": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,

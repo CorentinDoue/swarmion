@@ -43,7 +43,7 @@ export const packageJson = (options: NormalizedSchema): PackageJson => ({
     '@babel/preset-typescript': 'latest',
     '@types/node': 'latest',
     '@zerollup/ts-transform-paths': 'latest',
-    'babel-plugin-module-resolver': 'latest',
+    'babel-plugin-tsconfig-paths-module-resolver': 'latest',
     concurrently: 'latest',
     'dependency-cruiser': 'latest',
     eslint: 'latest',

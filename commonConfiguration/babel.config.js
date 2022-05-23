@@ -5,13 +5,7 @@ const defaultPresets = [
 const defaultIgnores = [/.*\/(.*\.|)test\.tsx?/, /node_modules/, /dist/];
 
 const defaultPlugins = [
-  [
-    'module-resolver',
-    {
-      root: ['./src'],
-      extensions: ['.ts'],
-    },
-  ],
+  'tsconfig-paths-module-resolver',
   '@babel/plugin-transform-runtime',
 ];
 

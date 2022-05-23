@@ -14,5 +14,5 @@
     { "path": "../../packages/configuration/tsconfig.build.json" }
   ],
   "exclude": ["./dist"],
-  "include": ["./**/*.ts"]
+  "include": ["./**/*.ts", "./tsconfig.json"]
 }

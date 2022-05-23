@@ -11,5 +11,5 @@
     "outDir": "./dist/types"
   },
   "exclude": ["./dist"],
-  "include": ["./**/*.ts"]
+  "include": ["./**/*.ts", "./tsconfig.json"]
 }
